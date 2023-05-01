@@ -9,20 +9,23 @@ API for Cinema management written in Django Rest Framework.
 
 
 ### Installation using GitHub:
-+ git clone https://github.com/oigod/cinema-project.git
-+ cd cinema-project
-+ python3 -m venv venv
-+ source venv/bin/activate(macOS, Linux)
-+ venv\Scripts\activate(windows)
-+ create .env by the example of .env.sample
-+ python manage.py migrate
-+ python manage.py runserver
-
+```
+git clone https://github.com/oigod/cinema-project.git
+cd cinema-project
+python3 -m venv venv
+source venv/bin/activate(macOS, Linux)
+venv\Scripts\activate(windows)
+create .env by the example of .env.sample
+python manage.py migrate
+python manage.py runserver
+```
 ---
 
 ### Run with Docker:
-+ docker-compose build
-+ docker-compose up
+```
+docker-compose build
+docker-compose up
+```
 
 ---
 
@@ -44,3 +47,9 @@ API for Cinema management written in Django Rest Framework.
 + Filtering movies and movie sessions
 
 ---
+
+### Demo:
+
+![Screenshot](demo/1.png)
+![Screenshot](demo/2.png)
+![Screenshot](demo/3.png)
